@@ -9,6 +9,6 @@ app.use(express.json());
 app.use(RoomRouter);
 app.use(RoomTypeRouter);
 
-app.listen(port, () => {
+app.listen(port, () =>  {
   console.log("Success");
 });
