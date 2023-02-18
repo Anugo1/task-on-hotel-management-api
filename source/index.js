@@ -1,5 +1,5 @@
 const express = require("express");
-require("./db/mongoose");
+require("./database/mongoose");
 const RoomRouter = require("./routers/room");
 const RoomTypeRouter = require("./routers/roomtype");
 const app = express();
